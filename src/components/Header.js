@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import {LOGO_URL} from "../utils/constant";
 import { useState ,useEffect} from "react";
-
+import React from "react";
 
 export const Header = () => {
     const[btnname,setBtnName]=useState("Login")

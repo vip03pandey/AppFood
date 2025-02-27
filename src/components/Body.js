@@ -3,7 +3,7 @@ import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer.js";
 import { Link } from "react-router-dom";
-
+import React from "react";
 export const Body = () => {
     const [listofrestaurants, setListofrestaurants] = useState([]);
     const [filteredRestro, setfilteredRestro] = useState([]);
